@@ -172,7 +172,7 @@ def main(df):  # 主函数，取值并计算
 if __name__ == '__main__':
     global file_dir
     global single_file
-    file_dir = r'C:\Users\User\Desktop\jieliu_model\结瘤模型\5流'
+    file_dir = r'' #insert your stuff here
     all_file_list = os.listdir(file_dir)
     for single_file in all_file_list:
         single_data_frame = pd.read_excel(os.path.join(file_dir, single_file), header=0)
